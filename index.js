@@ -1,4 +1,3 @@
-var katzDeliLine = [];
 function takeANumber(line, name){
  line.push(name);
  return `Welcome, ${name}. You are number ${line.length} in line.`;
@@ -10,7 +9,7 @@ function nowServing(){
   }
   else{
   var name = katzDeliLine[0];
-  katzDeliLine.shift();
+  katzDeli.shift();
   
   return name
   }
