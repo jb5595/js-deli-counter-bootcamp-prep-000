@@ -28,4 +28,5 @@ function currentLine(katzDeli){
       }
     }
 }
+return currentLinenames;
 }
