@@ -8,7 +8,7 @@ function nowServing(katzDeli){
     return "There is nobody waiting to be served!"
   }
   else{
-  var name = katzDeliLine[0];
+  var name = katzDeli[0];
   katzDeli.shift();
   
   return name
