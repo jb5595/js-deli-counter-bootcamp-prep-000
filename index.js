@@ -11,7 +11,7 @@ function nowServing(katzDeli){
   var name = katzDeli[0];
   katzDeli.shift();
   
-  return name
+  return `Currently serving ${name}`
   }
 
   
